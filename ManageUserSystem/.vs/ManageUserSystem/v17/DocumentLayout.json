@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\monhoc\\c#\\RBAC\\Infrastructure\\Migrations\\20250718025453_addattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\entities\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\filter\\haspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:filter\\haspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\authorization\\functionauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\controllers\\functioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:controllers\\functioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\dtos\\rolepermissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:dtos\\rolepermissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|d:\\monhoc\\c#\\rbac\\manageusersystem\\dtos\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602D6FC3-FB2C-4561-B8D3-203B8D2C94FB}|ManageUserSystem.csproj|solutionrelative:dtos\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74743DB-D577-4811-8F9C-891F48A6D5DB}|..\\Infrastructure\\Infrastructure.csproj|d:\\monhoc\\c#\\rbac\\infrastructure\\entities\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T03:07:20.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:59:18.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250718025453_addattribute.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Migrations\\20250718025453_addattribute.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250718025453_addattribute.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Migrations\\20250718025453_addattribute.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250718025453_addattribute.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:54:53.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA+wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:18:08.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T14:13:27.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FunctionController.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\FunctionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FunctionController.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\FunctionController.cs",
+              "RelativeToolTip": "Controllers\\FunctionController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T14:06:42.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T14:06:20.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\RolePermission.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Entities\\RolePermission.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\RolePermission.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Entities\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:01:34.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Entities\\UserRole.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\UserRole.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:01:32.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Entities\\User.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Entities\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:01:31.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Entities\\Role.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\Role.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:01:30.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Function.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\Function.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Entities\\Function.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Entities\\Function.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Entities\\Function.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:01:29.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwHMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:00:58.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FunctionAuthorization.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Authorization\\FunctionAuthorization.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Authorization\\FunctionAuthorization.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\Infrastructure\\Authorization\\FunctionAuthorization.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Authorization\\FunctionAuthorization.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:00:41.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Common\\ApiResponse.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:00:33.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T10:36:27.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RolePermissionDto.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\RolePermissionDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\RolePermissionDto.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\RolePermissionDto.cs",
+              "RelativeToolTip": "Dtos\\RolePermissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T10:36:25.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRoleDto.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\UserRoleDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserRoleDto.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\UserRoleDto.cs",
+              "RelativeToolTip": "Dtos\\UserRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T10:32:04.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAIAwwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T10:20:45.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreateUserDto.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Dtos\\CreateUserDto.cs",
+              "RelativeToolTip": "Dtos\\CreateUserDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T10:20:43.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HasPermissionAttribute.cs",
+              "DocumentMoniker": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Filter\\HasPermissionAttribute.cs",
+              "RelativeDocumentMoniker": "Filter\\HasPermissionAttribute.cs",
+              "ToolTip": "D:\\monhoc\\c#\\RBAC\\ManageUserSystem\\Filter\\HasPermissionAttribute.cs",
+              "RelativeToolTip": "Filter\\HasPermissionAttribute.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAQwGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T10:17:14.175Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
