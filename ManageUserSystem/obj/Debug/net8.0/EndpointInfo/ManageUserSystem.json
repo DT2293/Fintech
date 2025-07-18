@@ -55,17 +55,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/FunctionDto"
+                "$ref": "#/components/schemas/CreateFunctionDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/FunctionDto"
+                "$ref": "#/components/schemas/CreateFunctionDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/FunctionDto"
+                "$ref": "#/components/schemas/CreateFunctionDto"
               }
             }
           }
@@ -164,6 +164,23 @@
   },
   "components": {
     "schemas": {
+      "CreateFunctionDto": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateUserDto": {
         "type": "object",
         "properties": {
@@ -196,20 +213,6 @@
               "type": "string",
               "format": "uuid"
             },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "FunctionDto": {
-        "type": "object",
-        "properties": {
-          "key": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
             "nullable": true
           }
         },

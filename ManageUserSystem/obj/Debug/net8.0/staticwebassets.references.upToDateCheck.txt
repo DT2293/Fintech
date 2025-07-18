@@ -104,3 +104,6 @@ D:\monhoc\c#\RBAC\Infrastructure\obj\Debug\net8.0\staticwebassets.build.json
 D:\monhoc\c#\RBAC\Infrastructure\obj\Debug\net8.0\staticwebassets.build.json
 D:\monhoc\c#\RBAC\Infrastructure\obj\Debug\net8.0\staticwebassets.build.json
 D:\monhoc\c#\RBAC\Infrastructure\obj\Debug\net8.0\staticwebassets.build.json
+D:\monhoc\c#\RBAC\Infrastructure\obj\Debug\net8.0\staticwebassets.build.json
+D:\monhoc\c#\RBAC\Infrastructure\obj\Debug\net8.0\staticwebassets.build.json
+D:\monhoc\c#\RBAC\Infrastructure\obj\Debug\net8.0\staticwebassets.build.json

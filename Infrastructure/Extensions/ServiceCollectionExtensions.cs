@@ -21,12 +21,12 @@ namespace Infrastructure.Extensions
 
             // Add Repositories
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-
+            
 
 
             //Add Service
             services.AddScoped<UserService>();
-
+            services.AddScoped<PermissionService>();
             // Add Controllers, Swagger, Endpoints
             services.AddControllers();
             services.AddEndpointsApiExplorer();

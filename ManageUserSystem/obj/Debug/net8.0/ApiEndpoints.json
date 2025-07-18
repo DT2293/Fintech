@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "ManageUserSystem.Dtos.FunctionDto",
+        "Type": "ManageUserSystem.Dtos.Function.CreateFunctionDto",
         "IsRequired": true
       }
     ],
@@ -71,7 +71,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "ManageUserSystem.Dtos.CreateUserDto",
+        "Type": "ManageUserSystem.Dtos.User.CreateUserDto",
         "IsRequired": true
       }
     ],

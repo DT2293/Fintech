@@ -3,6 +3,7 @@ using Infrastructure.Repositories;
 using Infrastructure.Services;
 using ManageUserSystem.Common;
 using ManageUserSystem.Dtos;
+using ManageUserSystem.Dtos.User;
 using ManageUserSystem.Filter;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

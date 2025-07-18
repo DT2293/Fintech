@@ -1,7 +1,8 @@
 ﻿using Infrastructure.Entities;
 using Infrastructure.Repositories;
+using Infrastructure.Services;
 using ManageUserSystem.Common;
-using ManageUserSystem.Dtos;
+using ManageUserSystem.Dtos.Function;
 using ManageUserSystem.Filter;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -14,10 +15,12 @@ namespace ManageUserSystem.Controllers
     public class FunctionController : ControllerBase
     {
         private readonly IGenericRepository<Function> _repo;
+        private readonly PermissionService _permissionService;
 
-        public FunctionController(IGenericRepository<Function> repo)
+        public FunctionController(IGenericRepository<Function> repo, PermissionService permissionService)
         {
             _repo = repo;
+            _permissionService = permissionService;
         }
         [HttpGet]
         public async Task<IActionResult> GetAllFunction()
@@ -48,20 +51,12 @@ namespace ManageUserSystem.Controllers
 
         //    return Ok(ApiResponse<FunctionDto>.SuccessResponse(dto));
         //}
+        
         [HttpPost]
-        public async Task<IActionResult> CreateFuntion([FromBody] FunctionDto dto)
+        public async Task<IActionResult> CreateFuntion([FromBody] CreateFunctionDto dto)
         {
-            var function = new Function
-            {
-                Id = Guid.NewGuid(),
-                Key = dto.Key,
-                Description = dto.Description
-            };
-
-            await _repo.AddAsync(function);
-            await _repo.SaveChangesAsync();
-
-            return Ok(ApiResponse<FunctionDto>.SuccessResponse(dto, "Tạo thành công"));
+            var user = await _permissionService.CreateFuncAsync(dto.Key, dto.Description,dto.IsActive);
+            return Ok(ApiResponse<string>.SuccessResponse("Tạo Function thành công"));
         }
 
         //[HttpPut("{id}")]

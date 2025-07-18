@@ -150,3 +150,4 @@ D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.genruntimec
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ref\ManageUserSystem.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.sourcelink.json

@@ -1,7 +1,7 @@
 ﻿using Infrastructure.Entities;
 using Infrastructure.Repositories;
 using ManageUserSystem.Common;
-using ManageUserSystem.Dtos;
+using ManageUserSystem.Dtos.Role;
 using ManageUserSystem.Filter;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

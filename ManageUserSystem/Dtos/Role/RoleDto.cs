@@ -1,4 +1,4 @@
-﻿namespace ManageUserSystem.Dtos
+﻿namespace ManageUserSystem.Dtos.Role
 {
     public class RoleDto
     {
