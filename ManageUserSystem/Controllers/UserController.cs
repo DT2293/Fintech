@@ -1,5 +1,5 @@
 ﻿using Infrastructure.Entities;
-using Infrastructure.Repositories;
+using Infrastructure.Repositories.Generic;
 using Infrastructure.Services;
 using ManageUserSystem.Common;
 using ManageUserSystem.Dtos;
@@ -75,20 +75,20 @@ namespace ManageUserSystem.Controllers
             var user = await _userService.CreateUserAsync(dto.Username, dto.Password, dto.RoleIds );
             return Ok(ApiResponse<string>.SuccessResponse("Tạo user thành công"));
         }
-        [HttpPost("assign-role")]
-        public async Task<IActionResult> AssignRole([FromBody] UserRoleDto dto)
-        {
-            var entity = new UserRole
-            {
-                UserId = dto.UserId,
-                RoleId = dto.RoleId
-            };
+        //[HttpPost("assign-role")]
+        //public async Task<IActionResult> AssignRole([FromBody] UserRoleDto dto)
+        //{
+        //    var entity = new UserRole
+        //    {
+        //        UserId = dto.UserId,
+        //        RoleId = dto.RoleId
+        //    };
 
-            await _userRoleRepo.AddAsync(entity);
-            await _userRoleRepo.SaveChangesAsync();
+        //    await _userRoleRepo.AddAsync(entity);
+        //    await _userRoleRepo.SaveChangesAsync();
 
-            return Ok(ApiResponse<string>.SuccessResponse("Gán vai trò thành công"));
-        }
+        //    return Ok(ApiResponse<string>.SuccessResponse("Gán vai trò thành công"));
+        //}
      
 
 

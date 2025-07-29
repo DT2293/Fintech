@@ -2,6 +2,7 @@
 using System.Text;
 using Infrastructure.Entities;
 using Infrastructure.Repositories;
+using Infrastructure.Repositories.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration.UserSecrets;
 
@@ -9,12 +10,15 @@ namespace Infrastructure.Services
 {
     public class UserService
     {
+        private readonly IUnitOfWork _unitOfWork;
+
         private readonly IGenericRepository<User> _userRepo;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public UserService(IGenericRepository<User> userRepo, IHttpContextAccessor httpContextAccessor)
+        public UserService(IGenericRepository<User> userRepo, IHttpContextAccessor httpContextAccessor, IUnitOfWork unitOfWork)
         {
             _userRepo = userRepo;
             _httpContextAccessor = httpContextAccessor;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<IEnumerable<User>> GetUsersWithRolesAndFunctionsAsync()
@@ -44,7 +48,7 @@ namespace Infrastructure.Services
                 UserRoles = roleIds.Select(r => new UserRole { RoleId = r }).ToList()
             };
             await _userRepo.AddAsync(user);
-            await _userRepo.SaveChangesAsync();
+            await _unitOfWork.SaveChangesAsync();
 
             return user;
         }

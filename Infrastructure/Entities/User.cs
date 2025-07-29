@@ -14,5 +14,6 @@
         public DateTime? LastLogin { get; set; }
 
         public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
+        public ICollection<Account> Accounts { get; set; } = new List<Account>();
     }
 }

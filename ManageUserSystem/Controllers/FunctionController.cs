@@ -1,5 +1,5 @@
 ﻿using Infrastructure.Entities;
-using Infrastructure.Repositories;
+using Infrastructure.Repositories.Generic;
 using Infrastructure.Services;
 using ManageUserSystem.Common;
 using ManageUserSystem.Dtos.Function;

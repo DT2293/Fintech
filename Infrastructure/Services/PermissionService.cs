@@ -1,17 +1,21 @@
 ﻿using Infrastructure.Entities;
 using Infrastructure.Repositories;
+using Infrastructure.Repositories.Generic;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Services
 {
     public class PermissionService
     {
+        private readonly IUnitOfWork _unitOfWork;
+
         private readonly IGenericRepository<Function> _funcRepo;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public PermissionService(IGenericRepository<Function> funcRepo, IHttpContextAccessor httpContextAccessor)
+        public PermissionService(IGenericRepository<Function> funcRepo, IHttpContextAccessor httpContextAccessor, IUnitOfWork unitOfWork)
         {
             _funcRepo = funcRepo;
             _httpContextAccessor = httpContextAccessor;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<Function> CreateFuncAsync(string name, string description, bool isactive)
@@ -31,7 +35,7 @@ namespace Infrastructure.Services
             };
 
             await _funcRepo.AddAsync(function);
-            await _funcRepo.SaveChangesAsync();
+            await _unitOfWork.SaveChangesAsync();
 
             return function;
         }

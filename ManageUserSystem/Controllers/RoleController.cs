@@ -1,7 +1,9 @@
 ﻿using Infrastructure.Entities;
-using Infrastructure.Repositories;
+using Infrastructure.Repositories.Generic;
+using Infrastructure.Services;
 using ManageUserSystem.Common;
 using ManageUserSystem.Dtos.Role;
+using ManageUserSystem.Dtos.User;
 using ManageUserSystem.Filter;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -18,6 +20,7 @@ namespace ManageUserSystem.Controllers
     {
         private readonly IGenericRepository<Role> _repo;
         private readonly IGenericRepository<RolePermission> _rolePermRepo;
+        private readonly RoleService _roleService;
 
         public RoleController(IGenericRepository<Role> repo, IGenericRepository<RolePermission> rolePermRepo)
         {
@@ -54,6 +57,18 @@ namespace ManageUserSystem.Controllers
 
         //    return Ok(ApiResponse<RoleDto>.SuccessResponse(dto));
         //}
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreateRole(CreateRoleDto dto)
+        {
+          //  var existed = await _userService.CheckUsernameExistsAsync(dto.Username);
+           // ..if (existed)
+             //   return BadRequest(ApiResponse<string>.Fail("Username đã tồn tại"));
+
+            var role = await _roleService.CreateRoleAsync(dto.Name);
+            return Ok(ApiResponse<string>.SuccessResponse("Tạo Role thành công"));
+        }
 
         //[HttpPost]
         //public async Task<IActionResult> CreateRole([FromBody] RoleDto dto)

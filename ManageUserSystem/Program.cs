@@ -1,13 +1,8 @@
-﻿using System.Text;
-using Infrastructure.Authorization;
-using Infrastructure.Data;
+﻿
 using Infrastructure.Extensions;
-using Infrastructure.Repositories;
+
 using ManageUserSystem.Filter;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 // Đăng ký IHttpContextAccessor

@@ -1,6 +1,8 @@
 ﻿using Infrastructure.Authorization;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
+using Infrastructure.Repositories.AccountRepo;
+using Infrastructure.Repositories.Generic;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -21,12 +23,16 @@ namespace Infrastructure.Extensions
 
             // Add Repositories
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<AccountRepository>();
 
 
             //Add Service
             services.AddScoped<UserService>();
             services.AddScoped<PermissionService>();
+            services.AddScoped<RoleService>();
+            services.AddScoped<TransactionService>();
+            services.AddScoped<AccountWalletService>();
             // Add Controllers, Swagger, Endpoints
             services.AddControllers();
             services.AddEndpointsApiExplorer();

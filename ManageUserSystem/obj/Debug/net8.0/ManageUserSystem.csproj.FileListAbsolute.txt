@@ -1,9 +1,3 @@
-D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.csproj.AssemblyReference.cache
-D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.AssemblyInfoInputs.cache
-D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.AssemblyInfo.cs
-D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.csproj.CoreCompileInputs.cache
-D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.MvcApplicationPartsAssemblyInfo.cache
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Infrastructure.staticwebassets.endpoints.json
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\appsettings.json
@@ -16,6 +10,7 @@ D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\ManageUserSystem.pdb
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Azure.Core.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Azure.Identity.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Humanizer.dll
+D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -131,7 +126,14 @@ D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Syst
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Infrastructure.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Infrastructure.pdb
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.csproj.AssemblyReference.cache
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.AssemblyInfoInputs.cache
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.AssemblyInfo.cs
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.csproj.CoreCompileInputs.cache
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.MvcApplicationPartsAssemblyInfo.cs
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.MvcApplicationPartsAssemblyInfo.cache
+D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.sourcelink.json
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\scopedcss\bundle\ManageUserSystem.styles.css
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\staticwebassets.build.json
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\staticwebassets.development.json
@@ -149,5 +151,3 @@ D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.pdb
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.genruntimeconfig.cache
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ref\ManageUserSystem.dll
 D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\monhoc\c#\RBAC\ManageUserSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\monhoc\c#\RBAC\ManageUserSystem\obj\Debug\net8.0\ManageUserSystem.sourcelink.json
